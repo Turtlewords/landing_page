@@ -10,6 +10,7 @@ header {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 .logo {
@@ -23,8 +24,15 @@ header {
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
+    padding: 40px 0 40px 0;
+    margin: 0;
     gap: 80px;
 
+}
+
+#Lion {
+    flex-shrink: 1;
+    
 }
 
 .maintext {
@@ -41,6 +49,11 @@ header {
     font-size: 14px;
     color: #E5E7EB;
     width: 30%;
+}
+
+.rightone {
+    display: flex;
+    flex-shrink: 1;
 }
 
 
@@ -65,4 +78,22 @@ button {
     border-radius: 8px;
     padding: 4px 14px 4px 14px;
     width: 80px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+.cardtwo {
+    text-align: center;
+}
+
+.picbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Rigby, #Rigby2, #Rigby3, #Rigby4 {
+    border-radius: 10px;
 }
